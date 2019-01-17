@@ -5,10 +5,69 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1>CAESAR CIPHER</h1>
+      <!--<input type="button" value="COMENZAR" id="start" onclick="clickStartButton">-->
     </div>
+    <br>
+
+    <div id="instructions">
+      <p>Instrucciones </p>
+      <br>
+      <p>Para cifrar o decifrar, escribir tu mensaje,<br>
+        después elige el desplazamiento que usarás, <br>
+        enseguida escoge una opción y <br>
+        da click en "Enviar" para que la magia comience. <br>
+     </p>
+     <!--<button type="button" name="entendido" id="understand" onclick="clickUnderstanButton">ENTENDIDO</button>-->
+    </div>
+    <br>
+    <br>
+    <div>
+      <fieldset>
+      <legend>Escribe tu mensaje</legend>
+      <textarea name="string" id="mensajeOriginal" rows="6" cols="60" placeholder="Tu mensaje aquí"></textarea>
+      <br>
+      <input type="submit" value="Enviar" name="string" id="sendString" onclick="clickSendStringButton()">
+      </fieldset>
+    <br>
+
+<!-- botones de opción-->
+    <div>
+      <p>Elige un desplazamiento:</p>
+      <input type="number" name="desplazamiento" id="offsetBox" placeholder="Ej: 4">
+      <input type="submit" name="OK" value="OK" onclick="clickSendOffset()">
+      <br>
+      <p>Selecciona una opción:</p>
+      <input type="button" name="encode" value="CODIFICAR" id="opcionEncode">
+      <input type="button" name="decode" value="DECODIFICAR" id="opcionDecode" onclick="decode()">
+    <br>
+    <br>
+    <br>
+    <fieldset>
+      <legend>Tu mensaje modificado es:</legend>
+      <textarea name="mostrarModificacion" id="mensajeModificado" cols="60" rows="6" readonly></textarea>
+    </fieldset>
+    </div>
+    <br>
+    <br>
+    
+    <!--<div>
+      <input type="button" value="Regresar" id="return" onclick="clickButtonReturn()">
+      <input type="button" value="Finalizar" id="finish" onclick="clickButtonFinish()">
+    </div>-->
+    
+    <br>
+    <br>
+    <fieldset>
+    <div>
+      <h1>Gracias por usar CAESAR CODE</h1>
+    </div>
+    </fieldset>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
