@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(42, 165, 149);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #fff;
+    }
+
+  #root {
+      border-width: 5px;
+      border-style: groove;
+      border-color: A43043;
+      margin: 5px;
+      padding: 5px;
+  }
