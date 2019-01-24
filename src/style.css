@@ -1,13 +1,50 @@
 body {
-    background-color: rgb(42, 165, 149);
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: #fff;
-    }
+    background-image: url(../derechos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
 
-  #root {
-      border-width: 5px;
-      border-style: groove;
-      border-color: A43043;
-      margin: 5px;
-      padding: 5px;
-  }
+#root {
+    border-width: 1rem;
+    border-style: outset;
+    border-color:  rgba(9, 133, 46, 0.479);
+    background-color: transparent;
+    border-radius: 5rem;
+    text-align: center;
+    text-size-adjust: 4rem;
+}
+
+h1 {
+    font-style: italic;
+    margin: 0%;
+    padding: 0%;
+}
+
+h3 {
+    margin: 0%;
+    padding: 0%;
+}
+blockquote {
+    inline-size: 27%;
+    border-width: 1rem;
+    border-style: dotted;
+    border-color:  rgba(9, 133, 46, 0.479);
+    background-color: rgba(67, 139, 105, 0.151);
+    border-radius: 2rem;
+    text-align: justify;
+}
+
+#datos {
+    text-align: center;
+    margin-left: 35%;
+}
+
+#final {
+    float: right;
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 5%;
+}

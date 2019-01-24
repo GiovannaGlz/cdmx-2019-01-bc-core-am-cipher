@@ -9,65 +9,54 @@
   <body>
 
     <div id="root">
-      <h1>CAESAR CIPHER</h1>
-      <input type="button" value="COMENZAR" id="start" onclick="clickStartButton">
+      <h1> CAESAR CIPHER </h1>
+      <h3>En Pro de la defensa de los Derechos Humanos</h3>
     </div>
-    <br>
 
-    <div id="instructions">
-      <p>Instrucciones </p>
-      <br>
-      <p>Para cifrar o decifrar, escribir tu mensaje,<br>
-        después elige el desplazamiento que usarás, <br>
-        enseguida escoge una opción y <br>
-        da click en "Enviar" para que la magia comience. <br>
-     </p>
-     <!--<button type="button" name="entendido" id="understand" onclick="clickUnderstanButton">ENTENDIDO</button>-->
-    </div>
-    <br>
-    <br>
+    <blockquote id="inicio">
+     <div id="description">
+       <h5>DESCRIPCIÓN</h5>
+       <p>"Ceasar Code" es una herramienta de decifrado de texto que te ayudará a codificar o decodicar un mensaje y así protegerlo de que sea leído por terceros. Este es un tipo de cifrado que mueve cada letra un determinado número de espacios (desplazamiento) en el alfabeto</p>
+       <button type="button" name="entendido" id="understand" onclick="clickUnderstanButton">ENTENDIDO</button>
+     </div>
+     <div id="instrucciones">
+       <h5>INSTRUCCIONES</h5>
+       <p>Comienza escribiendo el mensaje que deseas codificar o decodificar, después elige un desplazamiento y después selecciona una opción. Tu mensaje modificado aparecerá a continuación</p>
+       <button type="button" name="entendido" id="understand" onclick="clickUnderstanButton">¡GENIAL!</button>    
+     </div>
+    </blockquote>
+  <blockquote id="datos">
     <div>
       <fieldset>
       <legend>Escribe tu mensaje</legend>
-      <textarea name="string" id="mensajeOriginal" rows="6" cols="60" placeholder="Tu mensaje aquí"></textarea>
+      <textarea name="string" id="mensajeOriginal" rows="10" cols="40" placeholder="Tu mensaje aquí"></textarea>
       <br>
-      <!--<input type="submit" value="Enviar" name="string" id="sendString" onclick="clickSendStringButton()">-->
       </fieldset>
     <br>
-
 <!-- botones de opción-->
     <div>
       <p>Elige un desplazamiento:</p>
       <input type="number" name="desplazamiento" id="offsetBox" placeholder="Ej: 4">
-      <input type="submit" name="OK" value="OK" onclick="clickSendOffset()">
       <br>
       <p>Selecciona una opción:</p>
       <input type="button" name="encode" value="CODIFICAR" id="opcionEncode">
       <input type="button" name="decode" value="DECODIFICAR" id="opcionDecode">
     <br>
-    <br>
-    <br>
-    <fieldset>
+  </blockquote>
+
+  <blockquote id="final">
+      <fieldset>
       <legend>Tu mensaje modificado es:</legend>
-      <textarea name="mostrarModificacion" id="nuevoMensaje" rows="6" cols="60" readonly></textarea>
+      <textarea name="mostrarModificacion" id="nuevoMensaje" rows="10" cols="40" readonly></textarea>
     </fieldset>
     </div>
-    <br>
-    <br>
-    
-    <!--<div>
-      <input type="button" value="Regresar" id="return" onclick="clickButtonReturn()">
-      <input type="button" value="Finalizar" id="finish" onclick="clickButtonFinish()">
-    </div>-->
-    
-    <br>
     <br>
     <fieldset>
     <div>
       <h1>Gracias por usar CAESAR CODE</h1>
     </div>
     </fieldset>
-
+  </blockquote>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
