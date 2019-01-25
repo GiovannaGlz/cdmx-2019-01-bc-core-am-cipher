@@ -26,9 +26,7 @@ La página web permite al usuario:
 - Elegir un desplazamiento (que indica cuántas posiciones queremos que el cifrado desplace cada caracter, respecto su posición en el alfabeto).
 - Ver el resultado del mensaje cifrado o resultado del mensaje descifrado.
 
-#### Archivos
+#### Proceso de diseño
 
-* Para poder usar "CEASAR CIPHER" sólo debes entrar a la siguiente liga 
-
-
+* Este proyecto tiene un diseño sencillo que permite fácil acceso y uso al usuario. La presentación visual del proyecto está basada en las sugerencias de los usuarios entrevistados (face to face); se aplicaron 3 entrevistas, en las cuales los usuarios comentan que han usado otras aplicaciones para cifrar texto, debido a que el entorno en el que se encuentran es conflictivo y tienen la necesidad de proteger información y mantener canales de comunicación seguros, sin embargo los colores en estas aplicaciones no son atractivos, además de que la interfaz de estas no son amigables con los usuarios, al trarse de un contexto de derechos humanos se desea que las herramientas usadas inspiren confianza y esperanza, por lo que fue sugerido el uso de colores verde y azul. Los entrevistados mencionan también que al ser esta una actividad asistencial y altruista, con frecuencia se le relaciona con la iglesia, algo en lo que no están de acuerdo los activistas, por lo que sugieren el uso de imágenes sin contenido eclesiástico.
 
