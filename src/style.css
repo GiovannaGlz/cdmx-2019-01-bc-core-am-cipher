@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
 }
 
@@ -14,7 +14,7 @@ body {
     background-color: transparent;
     border-radius: 5rem;
     text-align: center;
-    text-size-adjust: 4rem;
+    
 }
 
 h1 {
@@ -27,24 +27,32 @@ h3 {
     margin: 0%;
     padding: 0%;
 }
+
+div {
+    padding: 2%;
+}
 blockquote {
-    inline-size: 27%;
     border-width: 1rem;
     border-style: dotted;
     border-color:  rgba(9, 133, 46, 0.479);
-    background-color: rgba(67, 139, 105, 0.151);
+    background-color: rgba(81, 146, 116, 0.295);
     border-radius: 2rem;
+    width: 27%;
+}
+#inicio {
     text-align: justify;
 }
 
 #datos {
     text-align: center;
-    margin-left: 35%;
+    position: absolute;
+    left: 33%;
+    top: 25%;
 }
 
 #final {
-    float: right;
     text-align: center;
-    margin-top: 0%;
-    margin-right: 5%;
+    position: absolute;
+    left: 66%;
+    top: 25%;
 }
